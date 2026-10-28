@@ -1,0 +1,4 @@
+# Dependências de desenvolvimento e testes (Opcionais - o projeto roda em Python nativo sem precisar de instalação)
+pytest>=7.4.0
+black>=23.7.0
+flake8>=6.1.0

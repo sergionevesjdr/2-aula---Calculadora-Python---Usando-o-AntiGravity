@@ -1,0 +1,35 @@
+CALCKIDS - PROMPT 4: DOCUMENTACAO E DIAGRAMAS
+(colar no AI Studio depois que o app estiver funcionando)
+
+Agora documente o projeto CalcKids: A Máquina de Aventuras para que ele possa ser estudado, atualizado e mantido no futuro.
+
+Crie estes arquivos em Markdown:
+- README.md: o que é o app, como rodar, estrutura de pastas e tecnologias.
+- docs/REQUISITOS.md: requisitos funcionais e não funcionais com IDs (RF-01, RF-02...), critérios de aceite e o que ficou fora da v1.
+- docs/DECISOES.md: decisões de arquitetura e de escopo, com motivo (ex.: sem backend na v1, código de desafio em Base64, parser próprio sem eval).
+- docs/ARQUITETURA.md: componentes, serviços, tipos de dados e fluxo de dados.
+- docs/CHANGELOG.md: começando em v1.0.0.
+- docs/ROADMAP.md: ideias para a v2 (backend, login do professor, acompanhamento da turma, novos temas e roupas).
+- docs/TESTES.md: casos de teste manuais e automáticos ligados aos IDs dos requisitos (3+2 no 2º ano, 3×4 no 3º, 1,50+2,25 no 4º, 50% e (2+3)×4 no 5º, cada tipo de desafio, código inválido).
+
+Inclua diagramas Mermaid (blocos ```mermaid):
+1. Jornadas de uso (flowchart): criança e professor.
+2. Arquitetura de componentes e serviços (flowchart).
+3. Modelo de dados e o que é salvo no localStorage (erDiagram).
+4. Fluxo "professor gera código, aluno cola e valida" (sequenceDiagram).
+5. Estados do mascote Byte e do desafio (stateDiagram-v2).
+
+Regras:
+- textos em português do Brasil, simples e diretos;
+- diagramas curtos e legíveis;
+- não invente funcionalidades: documente só o que existe no código e marque o que está pendente;
+- no final, liste as inconsistências que encontrar entre código e requisitos.
+
+---
+PROMPT DE EVOLUCAO (para versoes futuras)
+
+Vamos evoluir o CalcKids da versão [X.Y.Z] para a [X.Y.Z+1].
+Estado atual: leia README.md e docs/.
+O que mudar: [descrever].
+O que não pode quebrar: [calculadora por ano, códigos de desafio já gerados, progresso salvo no localStorage].
+Ao terminar, atualize CHANGELOG, REQUISITOS, ARQUITETURA, TESTES e os diagramas afetados.
