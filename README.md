@@ -1,4 +1,4 @@
-# 🐍 PyCalc — Calculadora Simples em Python & Projeto GitHub
+# 🐍 PyCalc — Calculadora Simples em Python - Feita usando o AntiGravity
 
 > Uma calculadora modular, robusta e elegante desenvolvida em Python com foco em boas práticas de engenharia de software, separação estrita de responsabilidades, suíte avançada de porcentagem com visualização de dados (*Donut Chart* e *Barra 100%*), testes unitários automatizados e interfaces gráfica (Tkinter) e de terminal (CLI).
 
